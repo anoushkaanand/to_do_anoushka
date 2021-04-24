@@ -1,0 +1,49 @@
+#mainNavbar .navbar-brand {
+    color:white;
+    font-size: 1.5rem;
+}
+
+.table
+{
+    margin-top: 50px;
+    margin-right: 500px;
+    margin-left: 30px;
+
+} 
+
+#slide_bg
+{
+    width: 100%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: repeat;
+    backface-visibility: hidden;
+    animation: slideBg2 10s linear infinite 0s;
+    animation-timing-function: ease-in-out;
+    background-color: #dfc7c1;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;  
+    margin-bottom: 50px;  
+    
+}
+@keyframes slideBg2
+{
+    
+
+    0%
+    {
+        background-color: #dfc7c1;
+    }
+     25%
+    {
+        background-color: #b2d9ea;
+
+    }
+
+    50%
+    {
+        background-color: #84b4c8;        
+    }
+   
+    
+}
